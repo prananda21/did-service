@@ -4,7 +4,10 @@
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
-    "hono": "^4.7.11"
+    "dotenv": "^16.5.0",
+    "hono": "^4.7.11",
+    "mongoose": "^8.15.1",
+    "zod": "^3.25.51"
   },
   "devDependencies": {
     "@types/bun": "latest"
